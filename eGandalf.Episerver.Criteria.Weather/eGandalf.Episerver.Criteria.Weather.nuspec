@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>eGandalf.Episerver.Criteria.Weather</id>
+    <version>1.0.0</version>
+    <authors>James Stout (@egandalf)</authors>
+    <owners>Episerver</owners>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://2.bp.blogspot.com/-XP05TFuM8_o/V__1KyDB5mI/AAAAAAAAH0c/ltOfeZjaDjQqNB0YEvSARWl6ZGQjdk7ugCK4B/s80/egandalf.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Visitor Group Criteria using OpenWeatherMap APIs to base personalization on visitor weather conditions.</description>
+    <releaseNotes>Initial package release. Contains one criteria: temperature.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>EPiServerModulePackage Weather VisitorGroups Criteria</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.AspNet" version="[11.6, 12)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/$configuration$/eGandalf.Episerver.Criteria.Weather.dll" target="lib\net461" />
+    <file src="lang\" target="content\lang\"/>
+  </files>
+</package>

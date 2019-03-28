@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <enums>
+      <egandalf>
+        <episerver>
+          <criteria>
+            <weather>
+              <enums>
+                <condition>
+                  <greaterthan>Greater than</greaterthan>
+                  <lessthan>Less than</lessthan>
+                  <equalto>Equal to</equalto>
+                </condition>
+                <temperaturescale>
+                  <celcius>Celcius</celcius>
+                  <fahrenheit>Fahrenheit</fahrenheit>
+                </temperaturescale>
+                <windspeedunit>
+                  <meterspersecond>Meters per Second (m/s)</meterspersecond>
+                  <kilometersperhour>Kilometers per Hour (km/h)</kilometersperhour>
+                  <milesperhour>Miles per Hour (MPH)</milesperhour>
+                </windspeedunit>
+                <weathercodes>
+                  <ash>Ash</ash>
+                  <clear>Clear</clear>
+                  <clouds>Clouds</clouds>
+                  <drizzle>Drizzle</drizzle>
+                  <dust>Dust</dust>
+                  <fog>Fog</fog>
+                  <haze>Haze</haze>
+                  <mist>Mist</mist>
+                  <rain>Rain</rain>
+                  <sand>Sand</sand>
+                  <smoke>Smoke</smoke>
+                  <snow>Snow</snow>
+                  <squall>Squall</squall>
+                  <thunderstorm>Thunderstorm</thunderstorm>
+                  <tornado>Tornado</tornado>
+                </weathercodes>
+                <basiccondition>
+                  <is>Is</is>
+                  <isnot>Is not</isnot>
+                </basiccondition>
+              </enums>
+            </weather>
+          </criteria>
+        </episerver>
+      </egandalf>
+    </enums>
+  </language>
+</languages>
